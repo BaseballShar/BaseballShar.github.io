@@ -1,0 +1,32 @@
+* {
+  font-family: "Monaco";
+  color: #cccccc;
+  font-size: 24px;
+}
+body {
+  background-color: #002244;
+  /* background-image: url('asset/Bubu.JPG'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: #00c0c0;
+  font-size: 32px;
+}
+table {
+  margin: auto;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+.emoji {
+  font-size: 48px;
+}
+nav.site-nav {
+  display: flex;
+  justify-content: space-around;
+}
+div.section {
+  margin-left: 10%;
+  margin-right: 10%;
+}
