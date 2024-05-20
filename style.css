@@ -1,32 +1,65 @@
 * {
-  font-family: "Monaco";
   color: #cccccc;
+  font-family: "Monaco";
   font-size: 24px;
 }
+
 body {
-  background-color: #002244;
   /* background-image: url('asset/Bubu.JPG'); */
+  background-color: #024;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 h1 {
   color: #00c0c0;
   font-size: 32px;
 }
+
 table {
-  margin: auto;
-  text-align: center;
   border-collapse: separate;
   border-spacing: 20px;
+  margin: auto;
+  text-align: center;
 }
+
+a {
+  color: #00c080;
+  font-style: italic;
+  text-decoration: none;
+}
+
+a.footer {
+  font-size: 16px;
+  margin: 0;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
 .emoji {
   font-size: 48px;
 }
+
 nav.site-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
 }
+
 div.section {
   margin-left: 10%;
   margin-right: 10%;
+}
+
+li.list {
+  margin-bottom: 10px;
+}
+
+p.footer {
+  font-size: 16px;
+  margin: 0;
 }
