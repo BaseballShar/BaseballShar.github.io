@@ -1,7 +1,7 @@
 * {
   color: #cccccc;
   font-family: "Monaco";
-  font-size: 24px;
+  font-size: 18px;
 }
 
 body {
@@ -9,18 +9,45 @@ body {
   background-color: #024;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h1 {
   color: #00c0c0;
-  font-size: 32px;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
 }
 
 table {
-  border-collapse: separate;
-  border-spacing: 20px;
+  border-collapse: collapse;
   margin: auto;
   text-align: center;
+}
+
+th {
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid #cccccc;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 10px;
+}
+
+td.left {
+  text-align: left;
+  border: none;
+}
+
+td.right {
+  text-align: right;
+  border: none;
 }
 
 a {
@@ -30,12 +57,21 @@ a {
 }
 
 a.footer {
-  font-size: 16px;
+  font-size: 12px;
   margin: 0;
 }
 
 footer {
   margin-top: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 50vh;
+  max-height: 50vh;
+}
+
+.center {
   text-align: center;
 }
 
@@ -55,11 +91,18 @@ div.section {
   margin-right: 10%;
 }
 
+div.row-bar {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 li.list {
   margin-bottom: 10px;
 }
 
 p.footer {
-  font-size: 16px;
+  font-size: 12px;
   margin: 0;
 }
