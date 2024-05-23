@@ -4,15 +4,29 @@
 <head>
   <title>Baseball's FYP</title>
   <link rel="stylesheet" type="text/css" href="../style.css" />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
 </head>
 
 <body>
   <!-- Header -->
   <header>
-    <nav class="site-nav">
-      <a href="../index.html">Back</a>
-
-      <div class="header">
+    <nav>
+      <!-- Group 1 -->
+      <!-- Inside website shortcut -->
+      <div>
+        <a class="icon" href="../pages/launchpad.html">
+          <span class="material-icon">dataset</span>
+        </a>
+        <a class="icon" href="../index.html">
+          <span class="material-icon">home</span>
+        </a>
+      </div>
+      <!-- Group 2 -->
+      <!-- Outside website shortcut -->
+      <div>
         <a href="https://github.com/BaseballShar/">
           <img
             src="../asset/icon/github.svg"
@@ -40,7 +54,7 @@
   <h2>Project Information</h2>
   <p>
     This project is written in React Native for cross-platform compatibility and
-    Express & Retool for backend database integration.
+    Express together with Retool for backend database integration.
   </p>
 
   <!-- Table of contribution -->
@@ -80,7 +94,7 @@
   <h2>Methodology</h2>
   <table>
     <tr>
-      <td>Frontend<br />(React Native)</td>
+      <td class="center">Frontend<br />(React Native)</td>
       <td>
         <ul>
           <li>Can deploy to both iOS and Android platform in one code base</li>
@@ -92,7 +106,7 @@
       </td>
     </tr>
     <tr>
-      <td>Backend<br />(Express JS)</td>
+      <td class="center">Backend<br />(Express JS)</td>
       <td>
         <ul>
           <li>Easy to set up server for connecting frontend and Retool</li>
@@ -101,7 +115,7 @@
       </td>
     </tr>
     <tr>
-      <td>Database<br />Retool</td>
+      <td class="center">Database<br />(Retool)</td>
       <td>
         <ul>
           <li>Complimentary SQL database with simple and user-friendly UI</li>
@@ -110,7 +124,7 @@
       </td>
     </tr>
     <tr>
-      <td>Regression models</td>
+      <td class="center">Regression models</td>
       <td>
         <ul>
           <li>
@@ -125,7 +139,7 @@
   <h2>Final Results</h2>
   <table>
     <tr>
-      <td>Home Screen</td>
+      <td class="center">Home Screen</td>
       <td>
         <ul>
           <li>Entry point to application</li>
@@ -135,7 +149,7 @@
       </td>
     </tr>
     <tr>
-      <td>Add Screen</td>
+      <td class="center">Add Screen</td>
       <td>
         <ul>
           <li>Use to add a new income / expense transaction for tracking</li>
@@ -145,7 +159,7 @@
       </td>
     </tr>
     <tr>
-      <td>Trend Screen</td>
+      <td class="center">Trend Screen</td>
       <td>
         <ul>
           <li>Use to prediction future spending based on stored record</li>
@@ -160,14 +174,14 @@
 
   <!-- Screen shot of all screens -->
   <div class="row-bar">
-    <img src="../asset/image/iOS/home.png" alt="Home Screen" />
-    <img src="../asset/image/iOS/add_empty.png" alt="Add Screen" />
-    <img src="../asset/image/iOS/trend_predict.png" alt="Trend Screen" />
+    <img class="phone" src="../asset/image/iOS/home.png" alt="Home Screen" />
+    <img class="phone" src="../asset/image/iOS/add_empty.png" alt="Add Screen" />
+    <img class="phone" src="../asset/image/iOS/trend_predict.png" alt="Trend Screen" />
   </div>
 
   <h2>Demo Video</h2>
   <div class="center">
-    <video width="75%" height="75%" controls>
+    <video width="90%" controls>
       <source src="../asset/video/app_demo.mp4" type="" />
     </video>
   </div>
@@ -179,7 +193,7 @@
       <th>Task</th>
     </tr>
     <tr>
-      <td rowspan="3">Oct 2023</td>
+      <td class="center" rowspan="3">Oct 2023</td>
       <td>Completion of system architecture design</td>
     </tr>
     <tr>
@@ -189,11 +203,11 @@
       <td>Development Environment Setup</td>
     </tr>
     <tr>
-      <td>Nov 2023</td>
+      <td class="center">Nov 2023</td>
       <td>Configuration of Retool (SQL)</td>
     </tr>
     <tr>
-      <td rowspan="2">Dec 2023</td>
+      <td class="center" rowspan="2">Dec 2023</td>
       <td>
         Partial Implementation of Home Screen
         <br />
@@ -204,25 +218,25 @@
       <td>Implementation of Add Screen</td>
     </tr>
     <tr>
-      <td>Jan 2024</td>
+      <td class="center">Jan 2024</td>
       <td>Added support for recurring records</td>
     </tr>
     <tr>
-      <td>Feb 2024</td>
+      <td class="center">Feb 2024</td>
       <td>
         Full implementation of Home Screen <br />
         (Filtering and Sorting)
       </td>
     </tr>
     <tr>
-      <td rowspan="2">Mar 2024</td>
+      <td class="center" rowspan="2">Mar 2024</td>
       <td>Implementation of regression models</td>
     </tr>
     <tr>
       <td>Implementation of Trend Screen</td>
     </tr>
     <tr>
-      <td rowspan="2">Apr 2024</td>
+      <td class="center" rowspan="2">Apr 2024</td>
       <td>Completion of testing and debugging</td>
     </tr>
     <tr>
@@ -256,12 +270,14 @@
   </ul>
 
   <!-- Footer -->
-  <footer class="home">
-    <p class="footer">
+  <footer>
+    <p>
       Email:
-      <a href="mailto:workingcth@gmail.com" class="footer"
-        >workingcth@gmail.com</a
-      >
+      <a href="mailto:workingcth@gmail.com">workingcth@gmail.com</a>
+    </p>
+    <p>
+      Github:
+      <a href="https://github.com/BaseballShar/">github.com/BaseballShar</a>
     </p>
   </footer>
 </body>

@@ -10,11 +10,6 @@ a {
   text-decoration: none;
 }
 
-a.footer {
-  font-size: 12px;
-  margin: 0;
-}
-
 a.icon {
   font-style: normal;
 }
@@ -36,7 +31,9 @@ div.row-bar {
 
 footer {
   margin-top: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
 }
 
 h1 {
@@ -48,9 +45,8 @@ h2 {
   font-size: 24px;
 }
 
-img {
-  max-width: 50vh;
-  max-height: 50vh;
+img.phone {
+  width: 25%;
 }
 
 li.list {
@@ -62,32 +58,24 @@ nav {
   justify-content: space-between;
 }
 
-p.footer {
-  font-size: 12px;
-  margin: 0;
+p {
+  text-align: justify;
 }
 
 table {
   border-collapse: collapse;
   margin: auto;
-  text-align: center;
+}
+
+/* Leave margin property for td to handle */
+td > ul {
+  margin: 0;
 }
 
 td {
   border: 1px solid #cccccc;
   border-collapse: collapse;
-  text-align: left;
   padding: 10px;
-}
-
-td.left {
-  text-align: left;
-  border: none;
-}
-
-td.right {
-  text-align: right;
-  border: none;
 }
 
 th {
@@ -103,7 +91,17 @@ th {
   font-size: 48px;
 }
 
+.left {
+  text-align: left;
+  border: none;
+}
+
 .material-icon {
   font-family: "Material Icons";
   font-size: 32px;
+}
+
+.right {
+  text-align: right;
+  border: none;
 }
